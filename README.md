@@ -30,3 +30,7 @@ Smaller engines are designed to be more fuel-efficient.
 3.Weight and Power Correlation
 
 Vehicles with bigger engines are often heavier, needing even more energy to move, which again lowers MPG.
+2. Helps detect overfitting
+If your model performs great on training data but poorly on CV folds, it’s probably overfitting.
+
+importance of Cross-validation : acts as a safeguard — it simulates how your model would do on truly unseen data
